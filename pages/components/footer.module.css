@@ -1,0 +1,54 @@
+.footer {
+  margin-top: auto;
+  padding: 5% var(--globalPadding);
+  background: rgb(var(--lightGray));
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 14px;
+  color: rgba(var(--darkGray), 0.8);
+}
+
+.footer .logo {
+  max-height: 20px;
+  margin-bottom: 20px;
+}
+
+.footer .logo path {
+  fill: rgb(var(--pink));
+}
+
+.superfooter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 auto;
+}
+
+.subfooter {
+  border-top: 1px solid rgba(var(--darkGray), 0.1);
+  display: block;
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding-top: 40px;
+}
+
+.ruckusLogo {
+  position: relative;
+  top: 3px;
+  left: 3px;
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+.ruckusLogo:hover {
+  opacity: 0.8;
+}
+
+.subfooter p+p {
+  margin-top: 15px;
+}

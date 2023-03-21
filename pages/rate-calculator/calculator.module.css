@@ -1,0 +1,23 @@
+.rateCalculator {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: var(--globalPadding);
+}
+
+.rateCalculator .calculatedValue {
+  color: white;
+  font-size: 2rem;
+  background: rgb(var(--red));
+  text-align: center;
+  width: 50%;
+  margin: 25px auto;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: alias;
+}
+
+.rateCalculator button {
+  visibility: hidden;
+}

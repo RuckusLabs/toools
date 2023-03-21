@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 20px var(--globalPadding);
+  box-shadow: inset 0 -1px 0 rgb(var(--mediumGray));
+}
+
+.toolsLogo {
+  width: 35px;
+  margin-right: 20px;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
