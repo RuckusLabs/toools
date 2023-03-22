@@ -1,0 +1,10 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/components/Footer": "pages/components/Footer.html",
+  "/components/Nav": "pages/components/Nav.html",
+  "/": "pages/index.html",
+  "/rate-calculator": "pages/rate-calculator.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
