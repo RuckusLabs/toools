@@ -1,4 +1,8 @@
-module.exports = {
+/**
+ * @type {import('next').NextConfig}
+ **/
+
+const nextConfig = {
   basePath: '/gh-pages',
   reactStrictMode: true,
   env: {
@@ -6,3 +10,5 @@ module.exports = {
     SUPABASEURL: 'https://mtdzjagujutzlyrrfbud.supabase.co',
   },
 }
+
+module.exports = nextConfig
